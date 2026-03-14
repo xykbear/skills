@@ -1,0 +1,20 @@
+{
+  "skill_name": "fmhy-lookup",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想找视频下载工具",
+      "expected_output": "返回 FMHY 中推荐的视频下载工具列表，包含工具名称、链接、功能说明、平台支持和许可信息"
+    },
+    {
+      "id": 2,
+      "prompt": "有什么免费的 VPN 推荐？",
+      "expected_output": "返回 FMHY 中推荐的免费 VPN 工具，包含工具名称、链接、功能说明、平台支持和许可信息"
+    },
+    {
+      "id": 3,
+      "prompt": "帮我找一个好用的广告拦截软件，要支持 Firefox 的",
+      "expected_output": "返回 FMHY 中推荐的广告拦截工具，特别标注支持 Firefox 的工具，包含工具名称、链接、功能说明、平台支持和许可信息"
+    }
+  ]
+}
