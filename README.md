@@ -34,6 +34,20 @@ Search FMHY (Free Media Heck Yeah) wiki for free tools, software, and site recom
 - "What are some good password managers?"
 - "Recommend some free proxy tools"
 
+### prompt-creator
+
+Help users create, optimize, and document system prompts (AGENTS.md).
+
+**Use when:**
+- User wants to document/persist conversation experience into rules
+- Asking about refining system prompts
+- Wanting to optimize/review existing agents.md configuration
+
+**Examples:**
+- "Document this session's learnings into my agents.md"
+- "Review my current AGENTS.md for improvements"
+- "What can be extracted from this conversation?"
+
 ## Usage
 
 Skills are automatically available once installed. The agent will use them when relevant tasks are detected.
