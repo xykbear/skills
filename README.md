@@ -1,27 +1,45 @@
+[English](./README.md) | [中文](./README.zh-CN.md)
+
+---
+
 # xykbear-skills
 
-个人 Skills 集合。
+Personal AI Agent Skills collection for AI coding assistants.
 
-## 安装
+## Installation
 
 ```bash
 npx skills add xykbear/skills
+```
+
+Or manually:
+
+```bash
+git clone https://github.com/xykbear/skills.git
+cp -r skills/{skill-name} ~/.agents/skills/
 ```
 
 ## Available Skills
 
 ### fmhy-lookup
 
-搜索 FMHY (Free Media Heck Yeah) wiki 找免费工具、软件和网站推荐。
+Search FMHY (Free Media Heck Yeah) wiki for free tools, software, and site recommendations.
 
-**触发场景**：
-- 查找免费工具、软件、app、网站、资源推荐
-- 视频下载器、VPN、广告拦截器、密码管理器、代理工具、下载工具等
+**Use when:**
+- Finding free tools, software, apps, sites, or resource recommendations
+- Looking for video downloaders, VPNs, ad blockers, password managers, proxy tools, download utilities, etc.
 
-**使用方式**：
-- 直接描述需求，如"帮我找一个免费的视频下载工具"
-- 或使用 slash 命令：`/fmhy-lookup`
+**Examples:**
+- "Find me a free video downloader"
+- "What are some good password managers?"
+- "Recommend some free proxy tools"
+
+## Usage
+
+Skills are automatically available once installed. The agent will use them when relevant tasks are detected.
+
+Simply describe your needs naturally - no special commands required.
 
 ## License
 
-MIT
+MIT License - See [LICENSE.txt](./LICENSE.txt)
