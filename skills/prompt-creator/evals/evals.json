@@ -1,0 +1,61 @@
+{
+  "skill_name": "prompt-creator",
+  "evals": [
+    {
+      "id": 1,
+      "name": "沉淀系统提示词_明确偏好",
+      "prompt": "我刚才和你讨论了很多次，我不喜欢用markdown格式回复，你能把这个偏好的规则沉淀到AGENTS.md里吗？",
+      "expected_output": "识别用户偏好（不用markdown），搜索现有agents.md对比，生成XML格式的沉淀建议，让用户确认目标层级，辅助执行修改",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "沉淀系统提示词_经验总结",
+      "prompt": "这次会话我们探索了WEB前端开发的项目结构，我想把这次的经验总结成系统提示词，方便以后类似项目参考。",
+      "expected_output": "分析会话提取经验，对比现有agents.md，生成沉淀建议，包含项目结构规范",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "审查现有配置_工作区层级",
+      "prompt": "帮我看看当前工作区的AGENTS.md配置有没有问题？",
+      "expected_output": "确定目标文件位置（工作区层级），读取内容，对照最佳实践审查，生成问题报告",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "审查现有配置_项目层级",
+      "prompt": "检查下 a2ui 项目里的 AGENTS.md 配置是否合理",
+      "expected_output": "定位到 a2ui/AGENTS.md，读取并审查，给出优化建议",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "审查现有配置_全局层级",
+      "prompt": "我的全局 AGENTS.md 配置好像有问题，帮我看看",
+      "expected_output": "定位全局配置（~/.config/opencode/AGENTS.md），读取审查，给出问题列表",
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "优化触发_查看提示词",
+      "prompt": "看看当前项目的提示词是否有问题",
+      "expected_output": "识别为审查场景，读取项目AGENTS.md，对照审查清单检查",
+      "files": []
+    },
+    {
+      "id": 7,
+      "name": "优化触发_检查配置",
+      "prompt": "检查下配置有没有问题，需要怎么优化",
+      "expected_output": "识别为审查场景，读取相关配置，提供优化建议",
+      "files": []
+    },
+    {
+      "id": 8,
+      "name": "技能自我验证",
+      "prompt": "用技能验证自身是否符合最佳实践",
+      "expected_output": "识别为自我验证场景，引用官方最佳实践链接进行验证",
+      "files": []
+    }
+  ]
+}
