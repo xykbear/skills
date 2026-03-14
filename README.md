@@ -1,6 +1,6 @@
 # xykbear-skills
 
-个人 Claude Code Skills 集合。
+个人 Skills 集合。
 
 ## 安装
 
