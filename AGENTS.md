@@ -38,6 +38,10 @@ Read @skill-template.md when:
 - Modifying existing skill structure
 - Having questions about the standards
 
+### Skill Standards
+
+For classification, layering, grading and reference standards: @skill-standards.md
+
 ### License
 
 MIT License - See LICENSE.txt
