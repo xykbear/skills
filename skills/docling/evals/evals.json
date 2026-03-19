@@ -1,0 +1,103 @@
+{
+  "skill_name": "docling",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请给出将 PDF 转换为 Markdown 的 Python 代码示例，不需要实际执行",
+      "expected_output": "使用 DocumentConverter 的 Python 代码",
+      "files": [],
+      "note": "只需要代码示例，不需要实际转换"
+    },
+    {
+      "id": 2,
+      "prompt": "如何使用 CLI 将 URL 的 PDF 转换为 JSON？请给出命令示例",
+      "expected_output": "docling --to json <url> 命令",
+      "files": [],
+      "note": "只需要命令示例"
+    },
+    {
+      "id": 3,
+      "prompt": "请给出批量转换多个 PDF 文件的 Python 代码示例",
+      "expected_output": "遍历文件列表并调用 converter.convert() 的代码",
+      "files": [],
+      "note": "只需要代码示例"
+    },
+    {
+      "id": 4,
+      "prompt": "如何在 Claude Desktop 中配置 Docling MCP Server？请给出配置文件示例",
+      "expected_output": "claude_desktop_config.json 中的 mcpServers 配置",
+      "files": [],
+      "note": "只需要配置示例"
+    },
+    {
+      "id": 5,
+      "prompt": "处理扫描版 PDF 需要启用 OCR，请给出 CLI 和 Python API 的方法",
+      "expected_output": "--ocr 参数和 do_ocr=True 选项",
+      "files": [],
+      "note": "只需要方法说明"
+    },
+    {
+      "id": 6,
+      "prompt": "请给出将 Docling 与 LlamaIndex 集成用于 RAG 的代码示例",
+      "expected_output": "DoclingReader 和 DoclingNodeParser 的用法",
+      "files": [],
+      "note": "只需要代码示例"
+    },
+    {
+      "id": 7,
+      "prompt": "如何处理受密码保护的 PDF？请给出 CLI 和 Python API 的方法",
+      "expected_output": "--pdf-password 选项或对应 API 参数",
+      "files": [],
+      "note": "只需要方法说明"
+    },
+    {
+      "id": 8,
+      "prompt": "处理大文件时如何限制内存使用？请给出 Python API 的方法",
+      "expected_output": "max_num_pages 和 max_file_size 参数",
+      "files": [],
+      "note": "只需要方法说明"
+    },
+    {
+      "id": 9,
+      "prompt": "在 Apple Silicon Mac 上加速处理应该使用什么设备选项？请给出 CLI 和 Python 的写法",
+      "expected_output": "CLI: --device mps, Python: device='mps'",
+      "files": [],
+      "note": "只需要选项说明"
+    },
+    {
+      "id": 10,
+      "prompt": "处理中文 PDF 时 OCR 语言代码是什么？请给出 CLI 和 Python 的写法",
+      "expected_output": "CLI: --ocr-lang chi_sim, Python: ocr_lang='chi_sim'",
+      "files": [],
+      "note": "只需要选项说明"
+    },
+    {
+      "id": 11,
+      "prompt": "提取表格数据需要启用什么选项？请给出 CLI 和 Python 的写法",
+      "expected_output": "CLI: --tables, Python: do_table_structure=True",
+      "files": [],
+      "note": "只需要选项说明"
+    },
+    {
+      "id": 12,
+      "prompt": "完全离线环境使用 docling 应该如何配置？请给出预下载模型和环境变量的方法",
+      "expected_output": "docling-tools models download 和 DOCLING_ARTIFACTS_PATH",
+      "files": [],
+      "note": "只需要方法说明"
+    },
+    {
+      "id": 13,
+      "prompt": "请给出使用 VLM pipeline (GraniteDocling) 处理 PDF 的 CLI 命令",
+      "expected_output": "--pipeline vlm --vlm-model granite_docling",
+      "files": [],
+      "note": "只需要命令示例"
+    },
+    {
+      "id": 14,
+      "prompt": "请给出使用 LangChain 加载文档的代码示例",
+      "expected_output": "DoclingLoader 的用法",
+      "files": [],
+      "note": "只需要代码示例"
+    }
+  ]
+}
